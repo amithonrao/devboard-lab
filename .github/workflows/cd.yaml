@@ -46,7 +46,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/apptest:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/frontend:latest
 
   backend:
     name: Backend lint and tests
